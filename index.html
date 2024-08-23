@@ -24,8 +24,6 @@
             colors: {
               clifford: "#da373d",
               "icon-color": "#ABEF5F",
-              "banner-color":
-                "linear-gradient(0.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%)",
               "section-color": "#F4F4F4",
               "ss-title": "rgb(115, 115, 115)",
             },
@@ -44,10 +42,20 @@
       .manrope {
         font-family: "Manrope", sans-serif;
       }
+      .banner-color {
+        background-color: linear-gradient(
+          0deg,
+          rgb(255, 255, 255),
+          rgba(255, 255, 255, 0) 100%
+        );
+      }
+      .light-green {
+        background: rgba(171, 239, 95, 0.5);
+      }
     </style>
   </head>
-  <body class="manrope bg-banner-color">
-    <header class="container mx-auto">
+  <body class="manrope banner-color">
+    <header class="container banner-color mx-auto">
       <!-- Navbar -->
       <div class="navbar">
         <div class="navbar-start">
@@ -164,6 +172,26 @@
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+      <!-- Banner -->
+      <div class="mt-24 flex flex-col justify-center items-center">
+        <div>
+          <img src="./assets/banner.png" alt="" />
+        </div>
+        <h1 class="w-full md:w-9/12 text-3xl md:text-4xl lg:text-6xl text-center font-extrabold leading-snug">A barn house of this design has a striking appearance</h1>
+        <p>
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <div>
+          <a class="btn light-green text-base font-medium rounded-full"
+            >View Details<span
+              class="w-8 h-8 bg-icon-color text-black border rounded-full text-base -rotate-45 flex justify-center items-center"
+            >
+              <i class="fa-solid fa-arrow-right"></i> </span
+          ></a>
         </div>
       </div>
     </header>
