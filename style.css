@@ -7,6 +7,16 @@
     background-size: cover;
 }
 
+.carousel-bg{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/carousel-4.jpg); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.742), #acef5f3b), url(./assets/carousel-4.jpg);
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media screen and (max-width:640px) {
     .about-img-part{
         width: 335px;
