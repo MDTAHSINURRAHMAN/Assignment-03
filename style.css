@@ -43,6 +43,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.form-bg{
+    background: url("./assets/bg.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #ffff;
+}
 
 @media screen and (max-width:640px) {
     .about-img-part{
