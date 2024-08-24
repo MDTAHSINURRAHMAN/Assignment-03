@@ -9,7 +9,34 @@
 
 .carousel-bg{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/carousel-4.jpg); */
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.742), #acef5f3b), url(./assets/carousel-4.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.742), #acef5f3b), url(./assets/small-img.jpg);
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-bg2{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/carousel-4.jpg); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.742), #acef5f3b), url(./assets/small-img-2.jpg);
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-bg3{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/carousel-4.jpg); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.742), #acef5f3b), url(./assets/smallimg-3.jpg);
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-bg4{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./assets/carousel-4.jpg); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.742), #acef5f3b), url(./assets/small-img-4.jpg);
 
 
     background-position: center;
